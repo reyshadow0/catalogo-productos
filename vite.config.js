@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   plugins: [vue()],
+    base:'https://reyshadow0.github.io/catalogo-productos',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
